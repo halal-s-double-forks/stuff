@@ -176,8 +176,8 @@
 
             InternalProgramData.WaitToKill = true;
 
-            //Executes GC when Memory tops 1GB -> On every execution it raises the limit by 64MB
-            new Thread(() => OptimizeMemory.CallGC(1024)).Start();
+            //Executes GC when Memory tops 8GB -> On every execution it raises the limit by 64MB
+            new Thread(() => OptimizeMemory.CallGC(8192)).Start();
 
             //Manages the change between subreddits. 0 -> 1 -> 2 -> 3 -> 4 -> 5  
             new Thread(() => DynamicDownloader.RepeatWatchdog()).Start();
