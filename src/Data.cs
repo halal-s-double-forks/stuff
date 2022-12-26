@@ -46,12 +46,12 @@
     }
     internal struct Configurations 
     {
-        public string TargetSubReddit0 = "shitposting";
-        public string TargetSubReddit1 = "dankmemes";
-        public string TargetSubReddit2 = "memes";
-        public string TargetSubReddit3 = "crappyoffbrands";
-        public string TargetSubReddit4 = "nocontextpics";
-        public string TargetSubReddit5 = "arabfunny";
+        public string TargetSubReddit0 = "balkans_irl";
+        public string TargetSubReddit1 = "balkans_irl";
+        public string TargetSubReddit2 = "balkans_irl";
+        public string TargetSubReddit3 = "balkans_irl";
+        public string TargetSubReddit4 = "balkans_irl";
+        public string TargetSubReddit5 = "balkans_irl";
         public ulong MaxRepeatTimes = 10000;
         public bool SimultaneousDownload = true;
         public int ThreadCount = 32;
